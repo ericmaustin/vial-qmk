@@ -7,19 +7,74 @@
   "keycodes": ["via/keycodes"],
   "customKeycodes": [
     {
-      "name": ". :",
-      "title": ". or : if shift held",
-      "shortName": "KC_DOT_COLN"
+      "name": "TD_CAPS",
+      "title": "caps lock when double tapped, cw when tapped",
+      "shortName": "TD_CAPS"
     },
     {
-      "name": ". :",
-      "title": ", or ; if shift held",
-      "shortName": "KC_COMMA_SEMI"
+      "name": ">",
+      "title": "right carot",
+      "shortName": "KC_RCAR"
     },
     {
-      "name": "? !",
-      "title": "? or ! if shift held",
-      "shortName": "KC_QST_EXCL"
+      "name": "<",
+      "title": "left carot",
+      "shortName": "KC_LCAR"
+    },
+    {
+      "name": "M_SEL_WRD",
+      "title": "macro select word",
+      "shortName": "M_SEL_WRD"
+    },
+    {
+      "name": "M_SEL_LN",
+      "title": "macro select line",
+      "shortName": "M_SEL_LN"
+    },
+    {
+      "name": "M_CP_WRD",
+      "title": "macro copy word",
+      "shortName": "M_CP_WRD"
+    },
+    {
+      "name": "M_CP_LN",
+      "title": "macro copy line",
+      "shortName": "M_CP_LN"
+    },
+    {
+      "name": "M_NL_ABV",
+      "title": "new line above",
+      "shortName": "M_NL_ABV"
+    },
+    {
+      "name": "M_NL",
+      "title": "new line",
+      "shortName": "M_NL"
+    },
+    {
+      "name": "M_SEC0",
+      "title": "secret 0",
+      "shortName": "M_SEC0"
+    },
+    {
+      "name": "M_SEC1",
+      "title": "secret 1",
+      "shortName": "M_SEC1"
+    },
+    {
+      "name": "M_SEC2",
+      "title": "secret 2",
+      "shortName": "M_SEC2"
+    },
+    {
+      "name": "M_SEC3",
+      "title": "secret 3",
+      "shortName": "M_SEC3"
+    },
+    {
+      "name": "M_SEC4",
+      "title": "secret 4",
+      "shortName": "M_SEC4"
     }
   ],
   "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],

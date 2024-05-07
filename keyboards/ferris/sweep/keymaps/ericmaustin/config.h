@@ -12,7 +12,7 @@
 #define PERMISSIVE_HOLD
 
 /* autoshift settings  */
-#define AUTO_SHIFT_TIMEOUT 150
-#define AUTO_SHIFT_TIMEOUT_PER_KEY
-#define NO_AUTO_SHIFT_TAB
+// #define AUTO_SHIFT_TIMEOUT 150
+// #define AUTO_SHIFT_TIMEOUT_PER_KEY
+// #define NO_AUTO_SHIFT_TAB
 #define RETRO_SHIFT 400
