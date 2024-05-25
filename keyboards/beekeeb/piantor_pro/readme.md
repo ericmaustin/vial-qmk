@@ -1,20 +1,27 @@
-# Piantor Pro
+# piantor_pro
 
-![Piantor Pro](https://i.imgur.com/UPRI64ch.jpg)
+![piantor_pro](imgur.com image replace me!)
 
-A 42 key hotswappable keyboard with RP2040.
+*A short description of the keyboard/project*
 
 * Keyboard Maintainer: [beekeeb](https://github.com/beekeeb)
-* Hardware Availability: [beekeeb.shop](https://beekeeb.shop)
+* Hardware Supported: *The PCBs, controllers supported*
+* Hardware Availability: *Links to where you can find this hardware*
 
 Make example for this keyboard (after setting up your build environment):
 
-    make beekeeb/piantor_pro:default
+    make piantor_pro:default
+
+Flashing example for this keyboard:
+
+    make piantor_pro:default:flash
 
 See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_tools) and the [make instructions](https://docs.qmk.fm/#/getting_started_make_guide) for more information. Brand new to QMK? Start with our [Complete Newbs Guide](https://docs.qmk.fm/#/newbs).
 
-## Flashing
+## Bootloader
 
-To enter the bootloader mode, disconnect the keyboard from the computer. While holding the BOOT button, connect the keyboard to the computer.
+Enter the bootloader in 3 ways:
 
-Run `make beekeeb/piantor_pro:default:flash` or copy the compiled uf2 firmware to the USB mass storage device.
+* **Bootmagic reset**: Hold down the key at (0,0) in the matrix (usually the top left key or Escape) and plug in the keyboard
+* **Physical reset button**: Briefly press the button on the back of the PCB - some may have pads you must short instead
+* **Keycode in layout**: Press the key mapped to `QK_BOOT` if it is available

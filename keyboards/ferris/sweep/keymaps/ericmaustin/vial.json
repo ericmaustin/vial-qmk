@@ -7,74 +7,59 @@
   "keycodes": ["via/keycodes"],
   "customKeycodes": [
     {
-      "name": "TD_CAPS",
-      "title": "caps lock when double tapped, cw when tapped",
-      "shortName": "TD_CAPS"
+      "name": "CapsWord",
+      "title": "capsword",
+      "shortName": "CW_TOGG"
     },
     {
-      "name": ">",
+      "name": "RCarrot",
       "title": "right carot",
       "shortName": "KC_RCAR"
     },
     {
-      "name": "<",
+      "name": "LCarrot",
       "title": "left carot",
       "shortName": "KC_LCAR"
     },
     {
-      "name": "M_SEL_WRD",
-      "title": "macro select word",
-      "shortName": "M_SEL_WRD"
+      "name": "SEC0",
+      "title": "left carot",
+      "shortName": "M_SEC_0"
     },
     {
-      "name": "M_SEL_LN",
-      "title": "macro select line",
-      "shortName": "M_SEL_LN"
+      "name": "SEC1",
+      "title": "left carot",
+      "shortName": "M_SEC_1"
     },
     {
-      "name": "M_CP_WRD",
-      "title": "macro copy word",
-      "shortName": "M_CP_WRD"
+      "name": "SEC2",
+      "title": "left carot",
+      "shortName": "M_SEC_2"
     },
     {
-      "name": "M_CP_LN",
-      "title": "macro copy line",
-      "shortName": "M_CP_LN"
+      "name": "SEC3",
+      "title": "left carot",
+      "shortName": "M_SEC_3"
     },
     {
-      "name": "M_NL_ABV",
-      "title": "new line above",
-      "shortName": "M_NL_ABV"
+      "name": "SEC4",
+      "title": "left carot",
+      "shortName": "M_SEC_4"
     },
     {
-      "name": "M_NL",
-      "title": "new line",
-      "shortName": "M_NL"
+      "name": "SEC5",
+      "title": "left carot",
+      "shortName": "M_SEC_5"
     },
     {
-      "name": "M_SEC0",
-      "title": "secret 0",
-      "shortName": "M_SEC0"
+      "name": "SEC6",
+      "title": "left carot",
+      "shortName": "M_SEC_6"
     },
     {
-      "name": "M_SEC1",
-      "title": "secret 1",
-      "shortName": "M_SEC1"
-    },
-    {
-      "name": "M_SEC2",
-      "title": "secret 2",
-      "shortName": "M_SEC2"
-    },
-    {
-      "name": "M_SEC3",
-      "title": "secret 3",
-      "shortName": "M_SEC3"
-    },
-    {
-      "name": "M_SEC4",
-      "title": "secret 4",
-      "shortName": "M_SEC4"
+      "name": "SEC7",
+      "title": "left carot",
+      "shortName": "M_SEC_7"
     }
   ],
   "menus": ["via/keymap", "via/layouts", "via/macros", "via/save_load"],
